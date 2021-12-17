@@ -16,7 +16,7 @@ function timeTracer() {
 
   $(".hour-block").each(function () {
     var hourTime = parseInt($(this).attr("id").split("-")[1]);
-
+    // comparing current time to other possible time to trigger color-style in css
     if (hourTime < timeNow) {
       $(this).addClass("past");
     } else if (hourTime === timeNow) {
@@ -31,14 +31,14 @@ function timeTracer() {
 }
 
 // // getting time from local storage
-$("#hour-9 .plantext").val(localStorage.getItem("hour-9"));
-$("#hour-10 .plantext").val(localStorage.getItem("hour-10"));
-$("#hour-11 .plantext").val(localStorage.getItem("hour-11"));
-$("#hour-12 .plantext").val(localStorage.getItem("hour-12"));
-$("#hour-13 .plantext").val(localStorage.getItem("hour-13"));
-$("#hour-14 .plantext").val(localStorage.getItem("hour-14"));
-$("#hour-15 .plantext").val(localStorage.getItem("hour-15"));
-$("#hour-16 .plantext").val(localStorage.getItem("hour-16"));
-$("#hour-17 .plantext").val(localStorage.getItem("hour-17"));
+// $("#hour-9 .plantext").val(localStorage.getItem("hour-9"));
+// $("#hour-10 .plantext").val(localStorage.getItem("hour-10"));
+// $("#hour-11 .plantext").val(localStorage.getItem("hour-11"));
+// $("#hour-12 .plantext").val(localStorage.getItem("hour-12"));
+// $("#hour-13 .plantext").val(localStorage.getItem("hour-13"));
+// $("#hour-14 .plantext").val(localStorage.getItem("hour-14"));
+// $("#hour-15 .plantext").val(localStorage.getItem("hour-15"));
+// $("#hour-16 .plantext").val(localStorage.getItem("hour-16"));
+// $("#hour-17 .plantext").val(localStorage.getItem("hour-17"));
 
 timeTracer();
