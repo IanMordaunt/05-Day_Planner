@@ -26,5 +26,7 @@ Finally being able to work with the DOM to call out specific tags, classes, and 
 
 ## Deployed Webpage:
 
+https://ianmordaunt.github.io/05-Day_Planner/
+
 ![alt text](https://github.com/IanMordaunt/05-Day_Planner/blob/main/Assets/05-Work%20Day%20Scheduler.png)
 
