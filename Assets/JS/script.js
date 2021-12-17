@@ -10,7 +10,7 @@ $(document).ready(function () {
   });
 });
 
-function timeTracker() {
+function timeTracer() {
   // setting timeNow to the current time and hours for below funtion
   var timeNow = moment().hours();
 
@@ -41,4 +41,4 @@ $("#hour-15 .plantext").val(localStorage.getItem("hour-15"));
 $("#hour-16 .plantext").val(localStorage.getItem("hour-16"));
 $("#hour-17 .plantext").val(localStorage.getItem("hour-17"));
 
-timeTracker();
+timeTracer();
